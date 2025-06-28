@@ -5,6 +5,8 @@ import './App.css'
 import LabelCategory from './components/LabelCategory.jsx'
 import Section from './components/Section.jsx'
 import CheckBox from './components/Checkbox.jsx'
+import InputFourChoice from './components/InputFourChoice.jsx'
+import FourChoice from './components/FourChoice.jsx'
 
 
 function App() {
@@ -21,41 +23,11 @@ function App() {
       
       </BrowserRouter>
 
-
-       <LabelCategory/>
-        <Section/>
-        <CheckBox/>
-           
-        
-
-   <div >
-
-  
-
-  <p>نوع وکیل:</p>
-  <label><input type="radio" name="sender"  /> همه</label>
-  <label><input type="radio" name="sender"  /> پایه یک</label>
-  <label><input type="radio" name="sender"  /> کارشناس</label>
-
-  <p>نوع مشاوره:</p>
-  <label><input type="radio" name="sender" /> متنی</label>
-  <label><input type="radio" name="sender" /> تلفنی</label>
-  <label><input type="radio" name="sender" /> شکایت</label>
-  <label><input  type="radio" name="sender"/> قرارداد</label>
-
-  <button className="btn w-100 ">اعمال فیلتر</button>
- </div>
-          
-
-
-        
-       
-
-
-
-
-
-
+         <LabelCategory/>
+         <Section/>
+         <CheckBox/>
+         <InputFourChoice/> 
+         <FourChoice/> 
     </>
   )
 }
