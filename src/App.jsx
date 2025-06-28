@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { BrowserRouter , Routes , Route } from 'react-router-dom'
 import Header from './components/Header.jsx'
 import './App.css'
 import LabelCategory from './components/LabelCategory.jsx'
@@ -10,8 +11,17 @@ function App() {
 
   return (
     <>
+      <BrowserRouter>
+          <div>
+            <Routes>
+              <Route path='/'  element={<Header/>} />
+            
+            </Routes>
+          </div>
       
-       <Header/>
+      </BrowserRouter>
+
+
        <LabelCategory/>
         <Section/>
         <CheckBox/>
@@ -23,19 +33,19 @@ function App() {
   
 
   <p>نوع وکیل:</p>
-  <label><input type="radio" name="lawyer" value="all" checked /> همه</label>
-  <label><input type="radio" name="lawyer" value="basic" /> پایه یک</label>
-  <label><input type="radio" name="lawyer" value="expert" /> کارشناس</label>
+  <label><input type="radio" name="sender"  /> همه</label>
+  <label><input type="radio" name="sender"  /> پایه یک</label>
+  <label><input type="radio" name="sender"  /> کارشناس</label>
 
   <p>نوع مشاوره:</p>
-  <label><input type="checkbox" /> متنی</label>
-  <label><input type="checkbox" /> تلفنی</label>
-  <label><input type="checkbox" /> شکایت</label>
-  <label><input type="checkbox" /> قرارداد</label>
+  <label><input type="radio" name="sender" /> متنی</label>
+  <label><input type="radio" name="sender" /> تلفنی</label>
+  <label><input type="radio" name="sender" /> شکایت</label>
+  <label><input  type="radio" name="sender"/> قرارداد</label>
 
-  <button className="apply-button">اعمال فیلتر</button>
+  <button className="btn w-100 ">اعمال فیلتر</button>
  </div>
-        
+          
 
 
         
