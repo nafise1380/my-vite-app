@@ -5,7 +5,7 @@ export default function CheckBox(){
         <>
              <div className="flex container justify-between border-b border-gray-200 ">
                  <img src='/container-wrapper.svg' alt="container-wrapper"/>
-                  <span className="">  فقط آنلاین </span>      
+                  <span className="font-bold m-3">  فقط آنلاین </span>      
              </div>
         </>
     )

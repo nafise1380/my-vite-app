@@ -5,18 +5,18 @@ function InputFourChoice() {
   return (
          <>
             <div className="container border-b border-gray-200">
-                <span className="flex justify-end"> نوع وکیل </span>
-                <div className="flex">
+                <span className="flex justify-end font-bold"> نوع وکیل </span>
+                <div className="flex justify-end justify-between">
                    <div className=" my-3 mx-12">
-                        <label  className="mx-2"> همه </label>
+                        <label  className="mx-2 font-bold"> همه </label>
                         <input type="radio" name="sender"/>
                     </div>
                     <div className="my-3 mx-12 ">
-                        <label className="mx-2"> پایه یک</label>
+                        <label className="mx-2 font-bold"> پایه یک</label>
                         <input type="radio" name="sender"/>
                     </div>
-                    <div className=" my-3 mx-12 ">
-                        <label className="mx-2"> کارشناس </label>
+                    <div className=" my-3  ">
+                        <label className="mx-2 font-bold"> کارشناس </label>
                         <input type="radio" name="sender"/>
                     </div>
                 </div>
