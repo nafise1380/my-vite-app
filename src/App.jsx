@@ -4,9 +4,11 @@ import Header from './components/Header.jsx'
 import './App.css'
 import LabelCategory from './components/LabelCategory.jsx'
 import Section from './components/Section.jsx'
-import CheckBox from './components/Checkbox.jsx'
+import CheckBox from './components/CheckBox.jsx'
 import InputFourChoice from './components/InputFourChoice.jsx'
 import FourChoice from './components/FourChoice.jsx'
+import BottomOfThePage from './components/BottomOfThePage.jsx'
+
 
 
 function App() {
@@ -28,7 +30,7 @@ function App() {
          <CheckBox/>
          <InputFourChoice/> 
          <FourChoice/> 
-        
+         <BottomOfThePage/>
     </>
   )
 }
