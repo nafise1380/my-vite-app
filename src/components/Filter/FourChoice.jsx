@@ -5,7 +5,7 @@ function FourChoice() {
         <>
           <div className="container border-b border-gray-200">
             <span className="flex justify-end font-bold mx-3 mt-3"> نوع مشاوره </span>
-            <div className="flex  justify-end justify-between mx-2">
+            <div className="flex  justify-between mx-2">
                <div className=" my-3  ">
                     <label  className="mx-2 font-bold"> متنی </label>
                     <input type="radio" name="sender"/>
