@@ -1,15 +1,18 @@
 import MessageHeader from "../components/Messages/MessageHeader"
 import Nav from "../components/Messages/Nav"
-import Navbar from "../components/Profile/Navbar"
+import MessagesSection from '../components/Messages/MessagesSection'
 
 
-function Messages() {
+function MessagesPage() {
   return (
     <>
        <MessageHeader/>
        <Nav/>
+       <MessagesSection  time='14:30 |  1403/10/09'  text='لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز است.'/>
+       <MessagesSection  time='14:30 |  1403/10/09'  text='لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است.'/>
+       <MessagesSection  time='14:30 |  1403/10/09'  text='لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز است. ' sentence='لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز است. '/>
     </>
   )
 }
 
-export default Messages
+export default MessagesPage

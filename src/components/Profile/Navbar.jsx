@@ -20,7 +20,7 @@ export default function Navbar(props){
                   <Link to={'/'} className="text-black " style={{ textDecoration: 'none'}}> {props.t2} </Link>
                </div>
                 <div>
-                  <Link to={'/'} className="text-black " style={{ textDecoration: 'none'}} onClick={click}> {props.tab2}   </Link>
+                  <Link to={'/'}  style={{ textDecoration: 'none', color:'gray' }} onClick={click}> {props.tab2}   </Link>
                </div>
                <span> {props.slash} </span>
                <div>
