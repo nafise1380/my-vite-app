@@ -1,7 +1,7 @@
 import { Button, Card } from "flowbite-react";
 
 
-function ProfileSection() {
+function ProfileSection(props) {
   return (
     <>
         <section className="container flex justify-end my-3" dir="ltr">     
@@ -11,20 +11,20 @@ function ProfileSection() {
                    <div className="flex gap-2">
                      <p className="text-gray-300"> مشاوره </p>
                      <span> +۲۰۰  </span>
-                     <img src="Star.svg" alt="star"/>
+                     <img src="Star.svg" alt="star" className="mb-3"/>
                      <p> ۴.۲ <span className="text-gray-300"> (۲۳۰) </span></p>
                      <span> تهران </span>
-                     <img src="/map-point.svg" alt="map-point" className="" />                    
+                     <img src="/map-point.svg" alt="map-point" className="mb-3" />                    
                     </div>
                </div>
                <img src="/avatar.svg" alt="avatar" className="w-[80px] h-[80px] my-4"/>    
           </section>
           <ol className="container flex gap-3 ">
-              <li className="border p-1"> کیفری </li>
-              <li className="border p-1"> سایر </li>
-              <li className="border p-1"> خوانده </li>
-              <li className="border p-1"> مالیات </li>
-              <li className="border p-1">  مورد دیگر ۳ </li>               
+              <li className="border p-1 "> {props.list.list1} </li>
+              <li className="border p-1 "> {props.list.list2} </li>
+              <li className="border p-1 "> {props.list.list3} </li>
+              <li className="border p-1 "> {props.list.list4} </li>
+              <li className="border p-1 ">  {props.list.list5} </li>               
           </ol>    
     </>
   )

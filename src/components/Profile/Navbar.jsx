@@ -2,12 +2,15 @@ import { Link } from "react-router-dom";
 
 
 export default function Navbar(){
+    function click(){
+        console.log("clickkkkked")
+    }
     return(
         <>
            <div className="flex container  border-b border-gray-200 w-[412px] h-[48px]  gap-2 items-center">
                <img src="/icon.svg" alt="icon" className="w-[26px] h-[26px] "/>
                 <div>
-                  <Link to={'/'} className="text-black " style={{ textDecoration: 'none'}}> مشاوره تلفنی  </Link>
+                  <Link to={'/'} className="text-black " style={{ textDecoration: 'none'}} onClick={click}> مشاوره تلفنی  </Link>
                </div>
                <span> / </span>
                 <div>
