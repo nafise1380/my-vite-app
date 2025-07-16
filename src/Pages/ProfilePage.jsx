@@ -9,8 +9,8 @@ export default function ProfilePage(){
   }
     return(
         <>
-          <Headers/>
-          <Navbar/>
+          <Headers subject="پروفایل"/>
+          <Navbar t1='مشاوره تلفنی' t2='مشاوره ملکی' t3=' نیما سلیمانی' slash='/'/>
           <ProfileSection list={list}/>
           <SectionOfConsultation subject="تعرفه مشاوره" imageSrc="/phone.svg" text="  مشاوره تلفنی فوری" price="۲۰ دقیقه ۱۰۰ هزار تومان" button=" تماس فوری"/> 
           <SectionOfConsultation list1="برای تنظیم قرارداد" list2="تنظیم شکایت" imageSrc="icon-wrapper.svg" text="مشاوره متنی فوری" price="۲۰ دقیقه ۹۰ هزار تومان" button=" چت فوری"/>
