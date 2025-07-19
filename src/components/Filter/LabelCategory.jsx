@@ -2,7 +2,7 @@
 export default function LabelCategory() {
   return (
     <>
-        <div className="container">
+        
             <div className="d-flex align-items-center  mb-2 mx-3 lead">
                <img src="/icon.svg" alt="icon" className="position-absolute "  style={{height: '25px',  marginTop:'130px'}} />
                <label className="mt-4 mb-2 font-bold ">دسته بندی</label>
@@ -14,7 +14,7 @@ export default function LabelCategory() {
                  <option value="item3">آیتم سوم</option>
               </select>
             </div>
-         </div>
+         
     </>
   );
 }

@@ -1,7 +1,7 @@
 import Navbar from "../Profile/Navbar"
 
 
-function Nav() {
+function Nav({}) {
   return (
     <>
       <Navbar tab1='پروفایل' tab2='پیام ها'/>

@@ -10,7 +10,7 @@ import Header from '../components/Filter/Header.jsx'
 export default function FilterPage(){
     return(
         <>
-          <Header/>
+          <Header subgect='فیلتر'/>
          <LabelCategory/>
          <Section/>
          <CheckBox/>
