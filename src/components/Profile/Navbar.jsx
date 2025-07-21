@@ -7,7 +7,7 @@ export default function Navbar(props){
     }
     return(
         <>
-           <div className="flex   border-b border-gray-200 w-[412px] h-[48px]  gap-2 items-center">
+           <div className="flex   border-b border-gray-200  h-[48px]  gap-2 items-center">
                <img src="/icon.svg" alt="icon" className="w-[26px] h-[26px] "/>
                 <div>
                   <Link to={'/'} className="text-black " style={{ textDecoration: 'none'}} onClick={click}>  {props.t1}  </Link>
