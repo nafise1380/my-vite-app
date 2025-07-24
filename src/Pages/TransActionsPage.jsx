@@ -4,7 +4,7 @@ import Sections from "../components/Transactions/sections"
 import Text from "../components/Transactions/Text"
 
 
-function TransActions() {
+function TransActionsPage() {
   return (
     <>
        <Header header='تراکنش ها'/>
@@ -17,4 +17,4 @@ function TransActions() {
   )
 }
 
-export default TransActions
+export default TransActionsPage

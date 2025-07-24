@@ -4,7 +4,7 @@
 function ProfileImage() {
   return (
     <>
-        <div class="flex justify-center m-5 ">
+        <div className="flex justify-center m-5 ">
           <img src="/avatar.png " alt="image"/>
         </div>
     </>
