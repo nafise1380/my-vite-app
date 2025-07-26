@@ -6,6 +6,7 @@ import MessagesPage from './Pages/MessagesPage.jsx'
 import AccountPage from './Pages/AccountPage.jsx'
 import TransActionsPage from './Pages/TransActionsPage.jsx'
 import VakilPage from './Pages/VakilPage.jsx'
+import AccountInformationPage from './Pages/AccountInformationPage.jsx'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
               <Route path='transaction'  element={<TransActionsPage/>} />
               <Route path='account'  element={<AccountPage/>} />
               <Route path='vakil'  element={<VakilPage/>} />
+              <Route path='information'  element={<AccountInformationPage/>} />
             </Routes>
           </div>
       </BrowserRouter>

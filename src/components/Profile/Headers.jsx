@@ -8,6 +8,7 @@ export default function Headers(props){
                   {props.imgSrc}
                   <span className="m-1 my-2  text-lg font-bold mt-0 "> {props.text} </span>   
                   <span className=" m-2 text-lg font-bold mt-0 "> {props.subject} </span>  
+                  <div > {props.icon} </div>
             </header>
         </>
     )
