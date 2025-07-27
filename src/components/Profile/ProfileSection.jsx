@@ -7,13 +7,20 @@ function ProfileSection(props) {
               <div className="text-end m-3 ">
                   <span className="font-bold text-lg"> نیما سلیمانی </span>
                   <p className="text-gray-400"> وکیل پایه یک دادگستری </p>
-                   <div className="flex gap-2">
-                     <p className="text-gray-300"> مشاوره </p>
-                     <span> +۲۰۰  </span>
-                     <img src="Star.svg" alt="star" className="mb-3"/>
-                     <p> ۴.۲ <span className="text-gray-300"> (۲۳۰) </span></p>
-                     <span> تهران </span>
-                     <img src="/map-point.svg" alt="map-point" className="mb-3" />                    
+                   <div className="flex gap-3">
+                      <div className="flex">
+                         <p className="text-gray-300"> مشاوره </p>
+                         <span> +۲۰۰  </span>
+                      </div>
+                       <div className="flex">
+                          <img src="Star.svg" alt="star" className="mb-3"/>
+                         <p> ۴.۲ </p>
+                         <span className="text-gray-300"> (۲۳۰) </span>
+                       </div>
+                      <div className="flex">
+                         <span> تهران </span>
+                         <img src="/map-point.svg" alt="map-point" className="mb-3" />                    
+                      </div>
                     </div>
                </div>
                <img src="/avatar.svg" alt="avatar" className="w-[80px] h-[80px] my-4"/>    

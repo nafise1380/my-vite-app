@@ -4,7 +4,7 @@ function Table() {
   return (
     <>
      <section className="flex justify-center">
-         <div className="my-4  border rounded-lg w-[360px] ">
+         <div className="my-4  border rounded-lg ">
           <table className="w-[360px] h-[76px] ">
              <tr className=" text-center ">
                 <th> ۲۴۹ </th>

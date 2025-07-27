@@ -8,7 +8,8 @@ export default function Navbar(props){
     return(
         <>
            <div className="flex   border-b border-gray-200  h-[48px]  gap-2 items-center">
-               <img src="/icon.svg" alt="icon" className="w-[26px] h-[26px] "/>
+               <div className="w-[26px] h-[26px] "> {props.imgSrc} </div> 
+               <div > {props.imageSrc} </div> 
                 <div>
                   <Link to={'/'} className="text-black " style={{ textDecoration: 'none'}} onClick={click}>  {props.t1}  </Link>
                </div>
@@ -24,7 +25,7 @@ export default function Navbar(props){
                </div>
                <span> {props.slash} </span>
                <div>
-                  <Link to={'/'} className="text-black  visited:text-gray-300" style={{ textDecoration: 'none' }}>   {props.t3}  </Link>
+                  <Link to={'/'} className=" visited:text-gray-300" style={{ textDecoration: 'none' , color:'#9C9C9C'}}>   {props.t3}  </Link>
                </div>
                
               

@@ -18,7 +18,7 @@ function VakilPv() {
          <section className="flex justify-end m-2">
            <div className="border  rounded-br-lg rounded-tr-lg rounded-bl-lg bg-green-100  p-2 mb-2 w-[200px] flex items-center text-lg">
              <div className="flex items-center">
-               <div className="border p-2 mx-3 bg-white">
+               <div className="border rounded p-2 mx-3 bg-white">
                  <div style={divStyle} ></div>
                </div>
                 untitle.pdf
