@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 
 function Navbarr() {
+  let [click , setClick] = useState('پروفایل')
+
+      function clickHandler() {
+        console .log("cliiiickk")
+        setClick("profie")
+      }
   return (
     <>
-   
        <div className="border-bottom">
             <ul className="list-unstyled d-flex m-2">
                  <li class="p-1 ">
@@ -11,7 +16,7 @@ function Navbarr() {
                 </li>
                 <li className=" p-1">
                   <a href="#" className="text-decoration-none ">
-                    <span className="text-dark">پروفایل</span>
+                    <span className="text-dark" onClick={clickHandler}> {click} </span>
                   </a>
                 </li>
                 <li className="p-1">/</li>
