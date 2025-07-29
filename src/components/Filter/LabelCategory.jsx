@@ -14,15 +14,15 @@ export default function LabelCategory() {
   return (
     <>
       <div className="d-flex align-items-center  mb-2 mx-3 text-lg ">
-         <img src="/icon.svg" alt="icon" className="position-absolute "  style={{height: '25px',  marginTop:'130px'}} />
+         <img src="/icon.svg" alt="icon" className="position-absolute "  style={{height: '25px',  marginTop:'120px'}} />
          <label className="mt-4 mb-2 font-bold ">دسته بندی</label>
       </div>
-      <div className=" p-2 border " style={divStyle}>
-      <select name="دسته بندی" className="w-100 p-2  mx-1 " onChange={changeHandler}>
-          <option value="red" >دسته بندی</option>
-          <option value="white">آیتم دوم</option>
-          <option value="gray">آیتم سوم</option>
-        </select>
+      <div className=" p-2 border px-4 " style={divStyle}>
+         <select name="دسته بندی" className=" p-2 w-100 mx-1 " onChange={changeHandler}>
+             <option value="red" >دسته بندی</option>
+             <option value="white">آیتم دوم</option>
+             <option value="gray">آیتم سوم</option>
+           </select>
       </div>
     </>
   );

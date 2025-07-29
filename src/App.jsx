@@ -8,6 +8,8 @@ import TransActionsPage from './Pages/TransActionsPage.jsx'
 import VakilPage from './Pages/VakilPage.jsx'
 import AccountInformationPage from './Pages/AccountInformationPage.jsx'
 import WorkDaysPage from './Pages/WorkDaysPage.jsx'
+import CallPage from './Pages/CallPage.jsx'
+import OtherProfilePage from './Pages/OtherProfilePage.jsx'
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
               <Route path='vakil'  element={<VakilPage/>} />
               <Route path='information'  element={<AccountInformationPage/>} />
               <Route path='workdays'  element={<WorkDaysPage/>} />
+              <Route path='call'  element={<CallPage/>} />
+              <Route path='other'  element={<OtherProfilePage/>} />
             </Routes>
           </div>
       </BrowserRouter>
