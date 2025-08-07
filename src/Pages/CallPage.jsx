@@ -3,7 +3,7 @@ import ChooseMinutes from "../components/Call/ChooseMinutes"
 import ListItem from "../components/Call/ListItem"
 import Profile from "../components/Call/Profile"
 import Headers from "../components/Profile/Headers"
-
+import BottomOfThePage from "../components/Filter/BottomOfThePage"
 
 function CallPage() {
   return (
@@ -16,6 +16,7 @@ function CallPage() {
           <Information span='توضیحات' imgSrc='/icon-plus.svg'  text='افزودن'/>
           <Information span='تخفیف' imgSrc='/icon-plus.svg'  text='افزودن'/>
           <ChooseMinutes/>
+          <BottomOfThePage text='پرداخت'/>
        </div>
     </>
   )

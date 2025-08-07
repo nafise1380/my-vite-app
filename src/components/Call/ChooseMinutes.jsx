@@ -2,23 +2,20 @@ import { useState } from "react"
 
 
 function ChooseMinutes() {
-    const timeSelector = ({ duration , setDuration , baseRate}) =>{
-    function clickHandler(change){
-        setDuration((prev)=> Math.max('5, prev + change'));
-    }
-    }
-  return (
+  let [minute , setMinute] = useState( 20)
+  let [range , setRange] = useState( 100)
+  return ( 
     <>
-       <section>
-           <div className="flex gap-2 m-5">
-                <button onClick={() =>clickHandler(-5) }> - </button>
-                <p>  دقیقه </p>
-                <button onClick={() =>clickHandler(5) }> + </button>
+       <section className="text-lg">
+           <div className="flex gap-2 mt-5 justify-center">
+                <button onClick={() => setMinute( minute - 1)}> - </button>
+                <p className="mx-3"> {minute} دقیقه </p>
+                <button onClick={() => setMinute( minute + 1)} className="bg-gray-100 w-[32px] h-[32px] te"> + </button>
            </div>
-           <span> </span>
-           <div>
-              <p> </p>
-              <span> </span>
+           <span onClick={() => setRange( range + 1)} className="flex justify-center"> {range} هزار تومان </span>
+           <div className="flex  justify-between m-5 font-bold">
+              <p className="mr-5"> مبلغ نهایی </p>
+              <span className="ml-5">  ۹۰,۰۰۰ تومان </span>
            </div>
        </section>
     </>
